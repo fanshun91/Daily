@@ -1,4 +1,4 @@
-// 兼容IE7一下浏览器的写法
+// 兼容IE7以下浏览器的写法
 function createXHR() {
   if (typeof XMLHttpRequest != "undefined") {
     return new XMLHttpRequest();
