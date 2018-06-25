@@ -142,6 +142,8 @@ if (isDev) {
         canPrint: true
       })
     ],
+    
+    // 区分打包代码
     splitChunks: {
       cacheGroups: {
         commons: {
