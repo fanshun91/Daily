@@ -32,7 +32,7 @@ const CookieUtil = {
     }
 
     if (secure) {
-      cookieText += "; secure";
+      cookieText += "; secure"; // secure是一个安全标识
     }
 
     document.cookie = cookieText;
